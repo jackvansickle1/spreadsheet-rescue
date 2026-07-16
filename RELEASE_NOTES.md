@@ -17,3 +17,6 @@ Runtime: Python 3.10 or newer, standard library only.
 The CLI processes one CSV in memory. It does not preserve XLSX formulas,
 formatting, charts, macros, merged cells, or multi-sheet workbooks.
 Export each workbook sheet to CSV before processing it with this release.
+
+Wheel SHA-256:
+`4d1aee0b5e4eb82296836552bdd619dd65ee44830f8e663854fd93097b5df647`

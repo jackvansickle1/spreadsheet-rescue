@@ -61,7 +61,14 @@ customer_export_changes.json
 customer_export_changes.md
 ```
 
-To install a `spreadsheet-rescue` command in an isolated environment:
+To install the verified 1.0.0 wheel directly from GitHub:
+
+```powershell
+python -m pip install https://github.com/jackvansickle1/spreadsheet-rescue/releases/download/v1.0.0/spreadsheet_rescue-1.0.0-py3-none-any.whl
+spreadsheet-rescue .\customer_export.csv -c .\sample_config.json --dry-run
+```
+
+For an editable local install instead:
 
 ```powershell
 python -m venv .venv
