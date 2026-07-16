@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+tmp/
+output/
+go-to-market/
+publish/
+demo/*_rescue/
+demo/final_verified/
+demo/verified/

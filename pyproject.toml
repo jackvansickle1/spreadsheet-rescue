@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spreadsheet-rescue"
+version = "1.0.0"
+description = "Privacy-conscious, auditable CSV cleanup for a 24-hour spreadsheet rescue service"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jack VanSickle" }]
+dependencies = []
+keywords = ["csv", "data-cleaning", "spreadsheet", "deduplication"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+spreadsheet-rescue = "spreadsheet_rescue.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["spreadsheet_rescue*"]

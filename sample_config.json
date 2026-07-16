@@ -1,0 +1,52 @@
+{
+  "csv": {
+    "delimiter": "auto",
+    "encoding": "utf-8-sig",
+    "output_encoding": "utf-8-sig"
+  },
+  "headers": {
+    "case": "snake",
+    "unicode_normalization": "NFKC"
+  },
+  "whitespace": {
+    "trim": true,
+    "collapse_internal": false,
+    "unicode_normalization": null
+  },
+  "rows": {
+    "remove_blank": true,
+    "remove_exact_duplicates": true
+  },
+  "behavior": {
+    "missing_columns": "error"
+  },
+  "security": {
+    "formula_policy": "warn"
+  },
+  "dates": [
+    {
+      "column": "Order Date",
+      "input_formats": ["%Y-%m-%d", "%m/%d/%Y", "%m-%d-%Y"],
+      "output_format": "%Y-%m-%d"
+    }
+  ],
+  "currencies": [
+    {
+      "column": "Amount",
+      "symbols": ["$", "USD"],
+      "decimal_separator": ".",
+      "thousands_separator": ",",
+      "decimal_places": 2,
+      "allow_parentheses": true
+    }
+  ],
+  "phones": [
+    {
+      "column": "Phone",
+      "default_country_code": "1",
+      "national_lengths": [10],
+      "output_format": "international",
+      "allow_extensions": true
+    }
+  ]
+}

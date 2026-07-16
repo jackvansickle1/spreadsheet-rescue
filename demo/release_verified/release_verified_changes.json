@@ -1,0 +1,109 @@
+{
+  "tool": {
+    "name": "Spreadsheet Rescue",
+    "version": "1.0.0"
+  },
+  "generated_at": "2026-07-16T21:39:23.054757Z",
+  "mode": "write",
+  "privacy": {
+    "raw_cell_values_logged": false
+  },
+  "input": {
+    "file_name": "demo_dirty.csv",
+    "sha256": "e88b0fd22bc28f340bd97b33f6a5d6754a19f4755bedfe799ab0daf76d649c13",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "bytes": 483
+  },
+  "output": {
+    "file_name": "release_verified_cleaned.csv",
+    "sha256": "da9d75ecc79de9e4fb2d7129ded76b0ae23b5d5d76bc800f4da3919d551d8d63",
+    "encoding": "utf-8-sig",
+    "delimiter": ","
+  },
+  "rows": {
+    "input": 6,
+    "output": 3,
+    "blank_removed": 1,
+    "exact_duplicates_removed": 2,
+    "padded": 0
+  },
+  "columns": {
+    "input_header_count": 5,
+    "output_count": 5,
+    "generated_for_wide_rows": 0
+  },
+  "changes": {
+    "headers_renamed": 5,
+    "whitespace_cells": 6,
+    "typed_values_changed": 10,
+    "formula_like_cells": 2,
+    "formula_cells_neutralized": 0
+  },
+  "field_normalization": [
+    {
+      "column": "order_date",
+      "kind": "date",
+      "nonblank_values": 5,
+      "changed": 3,
+      "already_normalized": 1,
+      "invalid": 1,
+      "ambiguous": 0
+    },
+    {
+      "column": "amount",
+      "kind": "currency",
+      "nonblank_values": 5,
+      "changed": 4,
+      "already_normalized": 1,
+      "invalid": 0,
+      "ambiguous": 0
+    },
+    {
+      "column": "phone",
+      "kind": "phone",
+      "nonblank_values": 5,
+      "changed": 3,
+      "already_normalized": 1,
+      "invalid": 1,
+      "ambiguous": 0
+    }
+  ],
+  "header_map": [
+    {
+      "position": 1,
+      "original": " Sample Customer ",
+      "cleaned": "sample_customer",
+      "changed": true
+    },
+    {
+      "position": 2,
+      "original": "Order Date",
+      "cleaned": "order_date",
+      "changed": true
+    },
+    {
+      "position": 3,
+      "original": " Amount ",
+      "cleaned": "amount",
+      "changed": true
+    },
+    {
+      "position": 4,
+      "original": "Phone",
+      "cleaned": "phone",
+      "changed": true
+    },
+    {
+      "position": 5,
+      "original": "Notes ",
+      "cleaned": "notes",
+      "changed": true
+    }
+  ],
+  "warnings": [
+    "1 nonblank value(s) in 'order_date' were left unchanged because they were not safely recognized as date",
+    "1 nonblank value(s) in 'phone' were left unchanged because they were not safely recognized as phone",
+    "Detected 2 formula-like cell(s); values were preserved, so review them before opening the CSV in Excel or another spreadsheet application"
+  ]
+}
