@@ -21,6 +21,7 @@ CSV exports from Excel, Google Sheets, and other spreadsheet applications:
 - **Repeatable cleanup — from $149:** a reusable CSV cleanup recipe or script
   plus a written walkthrough.
 
+[View packages, safeguards, and Venmo/PayPal terms](https://jackgpt.org/#/hire/spreadsheet-rescue),
 [Request a quote by email](mailto:jvan8076@gmail.com?subject=Spreadsheet%20Rescue%20inquiry&body=Source%20application%20%28optional%29%3A%0ACSV%20exports%20and%20approximate%20rows%3A%0ACleanup%20needed%3A%0ADeadline%3A%0A%0APlease%20do%20not%20attach%20confidential%20files%20to%20this%20first%20email.)
 or review the [three-page work sample](docs/spreadsheet-rescue-portfolio.pdf).
 
